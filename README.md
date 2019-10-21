@@ -1,1 +1,0 @@
-# krissylegaspi.github.io
