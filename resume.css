@@ -2,7 +2,7 @@ body {
     background-color: rgb(43, 43, 43);
     font-family: Montserrat, sans-serif;
     font-weight: 400;
-    font-style: normal;   
+    font-style: normal;
     font-size: 20px;
     color: white;
     position: relative;
@@ -30,7 +30,8 @@ p {
 }
 
 
-a:active, a:focus {
+a:active,
+a:focus {
     outline: none !important;
     align-self: center;
 }
@@ -61,7 +62,7 @@ a:active, a:focus {
     border-left: 2px solid rgb(255, 255, 255);
     height: 20px;
 }
-  
+
 .resume {
     /* display: flex; */
     /* flex-flow: column wrap; */
@@ -77,14 +78,15 @@ a:active, a:focus {
     max-height: 2000px;
     /* height: 55vh; */
     min-width: 550px;
-    -o-transition:.15s;
-    -ms-transition:.15s;
-    -moz-transition:.15s;
-    -webkit-transition:.15s;
-    transition:.15s;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
     box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.384);
     overflow: auto;
 }
+
 img {
     max-width: 1000px !important;
 }
@@ -114,11 +116,11 @@ img {
     margin-left: 0px;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
     font-size: 16px;
-    -o-transition:.15s;
-    -ms-transition:.15s;
-    -moz-transition:.15s;
-    -webkit-transition:.15s;
-    transition:.15s;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
 }
 
 .download:hover {
@@ -129,11 +131,11 @@ img {
 #page1-div {
     background-image: url('/Resume/Dat_Nguyen_April_2019001.png');
     margin-left: 24%;
-    -o-transition:.15s;
-    -ms-transition:.15s;
-    -moz-transition:.15s;
-    -webkit-transition:.15s;
-    transition:.15s;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
 }
 
 @media (max-width: 1700px) {
@@ -141,6 +143,7 @@ img {
         justify-content: space-around;
         flex-wrap: nowrap;
     }
+
     /* .download {
         left: 5%;
     } */
@@ -148,13 +151,16 @@ img {
         margin-left: 15%;
     }
 }
+
 @media (max-width: 1200px) {
     .resume {
         flex-wrap: wrap;
     }
+
     .resume-img {
         min-height: 120vw;
     }
+
     #page1-div {
         margin-left: 5%;
     }
@@ -164,9 +170,11 @@ img {
     .name {
         font-size: 60px !important;
     }
+
     .resume {
         margin: 5px 5px 5px 5px;
     }
+
     .tile {
         min-width: 325px !important;
         max-width: 325px !important;
@@ -188,15 +196,15 @@ img {
     color: white;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: black;
-    -o-transition:.15s;
-    -ms-transition:.15s;
-    -moz-transition:.15s;
-    -webkit-transition:.15s;
-    transition:.15s;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.384);
 }
 
-.tile:hover p{
+.tile:hover p {
     opacity: 1;
 }
 
@@ -206,25 +214,11 @@ img {
     letter-spacing: 2px;
     text-shadow: 0px 2px 4px #0000007a;
     font-weight: 100;
-    -o-transition:.15s;
-    -ms-transition:.15s;
-    -moz-transition:.15s;
-    -webkit-transition:.15s;
-    transition:.15s;
-}
-
-.t1 {
-    background-image: url('/Ayli/Ayli1.png');
-    background-size: 400px 200px;
-}
-
-.t2 {
-    background-image: url('/Open Inventory/OI1.png');
-    background-size: 400px 200px;
-}
-.t3 {
-    background-image: url('/Sprite Game/Sprite.png');
-    background-size: 430px 200px;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
 }
 
 
@@ -245,34 +239,32 @@ img {
 }
 
 
-.link
-{
+.link {
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     /* font-size: 20px; */
     font-style: normal;
     color: white;
-    text-decoration: none; 
-    -o-transition:.15s;
-    -ms-transition:.15s;
-    -moz-transition:.15s;
-    -webkit-transition:.15s;
-    transition:.15s;
+    text-decoration: none;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
 }
 
 .link:hover {
     color: rgb(179, 179, 179)
 }
 
-.home
-{
+.home {
     color: rgb(255, 255, 255);
-    text-decoration: none; 
-    -o-transition:.15s;
-    -ms-transition:.15s;
-    -moz-transition:.15s;
-    -webkit-transition:.15s;
-    transition:.15s;
+    text-decoration: none;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
 }
 
 .home:hover {

@@ -2,9 +2,10 @@ body {
     background-color: rgb(43, 43, 43);
     font-family: Montserrat, sans-serif;
     font-weight: 400;
-    font-size: 20px;
     font-style: normal;
+    font-size: 20px;
     color: white;
+    position: relative;
 }
 
 .name {
@@ -28,7 +29,8 @@ p {
     letter-spacing: 2px;
 }
 
-a:active, a:focus {
+a:active,
+a:focus {
     outline: none !important;
 }
 
@@ -57,7 +59,7 @@ a:active, a:focus {
 
 .portfolio {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: space-around;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.3);
@@ -66,11 +68,11 @@ a:active, a:focus {
     margin: 0 20px 30px 20px;
     padding: 50px 15px 0px 15px;
     min-height: 350px;
-    -o-transition:.15s;
-    -ms-transition:.15s;
-    -moz-transition:.15s;
-    -webkit-transition:.15s;
-    transition:.15s;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
     box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.384);
 }
 
@@ -80,6 +82,7 @@ a:active, a:focus {
         /* flex-wrap: nowrap; */
     }
 }
+
 @media (max-width: 1500px) {
     .portfolio {
         flex-wrap: wrap;
@@ -91,9 +94,11 @@ a:active, a:focus {
         font-size: 60px !important;
         /* margin-bottom: 20px; */
     }
+
     .portfolio {
         margin: 5px 5px 5px 5px;
     }
+
     .tile {
         min-width: 325px !important;
         max-width: 325px !important;
@@ -115,11 +120,11 @@ a:active, a:focus {
     color: white;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: black;
-    -o-transition:.15s;
-    -ms-transition:.15s;
-    -moz-transition:.15s;
-    -webkit-transition:.15s;
-    transition:.15s;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.384);
 }
 
@@ -133,7 +138,7 @@ a:active, a:focus {
 
 }
 
-.tile:hover p{
+.tile:hover p {
     opacity: 1;
 }
 
@@ -143,11 +148,11 @@ a:active, a:focus {
     letter-spacing: 2px;
     text-shadow: 0px 2px 4px #0000007a;
     font-weight: 100;
-    -o-transition:.15s;
-    -ms-transition:.15s;
-    -moz-transition:.15s;
-    -webkit-transition:.15s;
-    transition:.15s;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
 }
 
 .t1 {
@@ -159,6 +164,7 @@ a:active, a:focus {
     background-image: url('/Open Inventory/OI1.png');
     background-size: 400px 200px;
 }
+
 .t3 {
     background-image: url('/Sprite Game/Sprite.png');
     background-size: 430px 200px;
@@ -180,34 +186,32 @@ a:active, a:focus {
 }
 
 
-.link
-{
+.link {
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     /* font-size: 20px; */
     font-style: normal;
     color: white;
-    text-decoration: none; 
-    -o-transition:.15s;
-    -ms-transition:.15s;
-    -moz-transition:.15s;
-    -webkit-transition:.15s;
-    transition:.15s;
+    text-decoration: none;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
 }
 
 .link:hover {
     color: rgb(179, 179, 179)
 }
 
-.home
-{
+.home {
     color: rgb(255, 255, 255);
-    text-decoration: none; 
-    -o-transition:.15s;
-    -ms-transition:.15s;
-    -moz-transition:.15s;
-    -webkit-transition:.15s;
-    transition:.15s;
+    text-decoration: none;
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
 }
 
 .home:hover {
