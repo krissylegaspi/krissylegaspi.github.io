@@ -156,29 +156,26 @@ a:focus {
 }
 
 .t1 {
-    background-image: url('/Ayli/Ayli1.png');
+    background-image: url('/SaltNPrepr/mealprep.png');
     background-size: 400px 200px;
 }
 
 .t2 {
-    background-image: url('/Open Inventory/OI1.png');
-    background-size: 400px 200px;
-}
-
-.t3 {
-    background-image: url('/Sprite Game/Sprite.png');
-    background-size: 430px 200px;
-}
-
-.t4 {
-    background-image: url('/TuffyPub/Tuff2.png');
+    background-image: url('/KrisBot/icon.jpg');
     background-size: 400px 200px;
 }
 
 
+.t1:hover {
+    opacity: 0.4;
+    min-width: 425px;
+    max-width: 425px;
+    height: 212px;
+    background-size: 450px 212px;
+}
 
-.t3:hover {
-    opacity: 0.6;
+.t2:hover {
+    opacity: 0.4;
     min-width: 425px;
     max-width: 425px;
     height: 212px;
